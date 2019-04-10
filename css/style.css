@@ -1,0 +1,318 @@
+/* ------------ Other stuff ------------ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(237, 237, 237);
+    margin: 0 auto;
+}
+.skole {
+  position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    float: left;
+    text-align:center;
+  }
+
+  .footer {
+      clear: both;
+  }
+
+  #adresse {
+  width: 20%;
+  margin-left: 15%;
+  margin-top: 3%;
+  }
+
+img {
+  width: 100%;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+  row-gap: 1em;
+  grid-column-gap: 10px;
+  grid-row-gap: 1em;
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: #fff4e6;
+  overflow: hidden;
+  cursor: default;
+}
+
+.wrapper > div {
+  border: 2px solid white;
+  border-radius: 5px;
+  background-color: grey;
+  padding: 1em;
+  color: #d9480f;
+}
+.wrapper p {
+    color: white;
+    text-align: center;
+}
+.image:hover  {
+  transition: transform .3s; /* Animation */
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.info {
+    width: 50%;
+    margin-left: 25%;
+    background-color: rgb(200, 200, 200);
+}
+
+h1 {
+    color: black;
+    margin-left: 23%;
+    margin-right: 23%;
+}
+
+a {
+    color: black;
+}
+
+/* --------------- Menu stuff -------------- */
+
+header {
+    background-color: white;
+    padding-bottom: 20px;
+}
+
+input[type=text] {
+    margin-top: 2%;
+    height: 4%;
+    width: 100%;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    margin-bottom: 5%;
+}
+
+/* When the input field gets focus, change its width to 50% */
+
+input[type=text]:focus {
+    width: 100%;
+    height: 4%;
+
+}
+
+#logo {
+    width: 20%;
+    height: 10%;
+    float: left;
+}
+
+#nav {
+  text-align: center;
+    overflow: hidden;
+    background-color: none;
+width: 100%;
+}
+
+/* Style the links inside the navigation bar */
+
+#nav a {
+    color: black;
+    text-align: center;
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+#vid {
+width:95%;
+padding-left: 5%;
+}
+
+/* Change the color of links on hover */
+
+#nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+
+#nav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#kategori {
+    /* background-color: rgb(150,150,150); */
+    background-color: #41697e;
+    color: white;
+    margin-bottom: 1px;
+    width: 100%;
+    float: left;
+    margin-top: 4px;
+}
+#kategori:hover {
+    background-color: rgb(48,77,92);
+}
+#kategori a {
+    color: white;
+}
+#kategori li {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.information {
+    width: 21%;
+}
+.fixed {
+    position: fixed;
+    top: 10px;
+    left: 0;
+}
+
+.search {
+    border: 5px solid black;
+}
+
+.info {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: rgb(150, 150, 150);
+    border: 2px solid black;
+}
+
+#info {
+    background-color: #41697e;
+    width: 100%;
+    float: left;
+    color: white;
+
+}
+#info:hover {
+    background-color: rgb(48,77,92);
+}
+#info li {
+    list-style-type: none;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+h1 {
+    color: black;
+    margin-left: 23%;
+    margin-right: 23%;
+}
+
+/* --------- Header img stuff ------------- */
+
+.responsive {
+    margin: 0 auto;
+    margin-left: 25%;
+    padding: 0 6px;
+    margin-bottom: 2%;
+}
+
+.gallery img {
+    width: 70%;
+    height: auto;
+    border: 5px solid black;
+}
+
+.desc {
+    width: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.desc-h2 {
+    width: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    text-align: center;
+}
+
+input.search[type=text] {
+    /*border: 2px solid rgba(0,0,0,0.5); */
+    border: 2px solid #41697e;
+    background-color: rgb(200, 200, 200);
+}
+
+/* ----------- Signup Stuff --------------- */
+
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+.hours {
+    font-size: 0.8rem;
+    color: rgb(70, 70, 70);
+    text-decoration: underline;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+label {
+    margin-left: 0.5%;
+}
+
+/* Set a style for all buttons */
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+
+.signupbtn {
+    float: left;
+    margin: 0 auto;
+    margin-left: 25%;
+    width: 50%;
+}
+
+/* Clear floats */
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* ---------- media querys -------- */
+
+/* Change styles for cancel and signup button on extra small screen */
+
+@media screen and (max-width: 300px) {
+    .cancelbtn,
+    .signupbtn {
+        width: 100%;
+    }
+}
