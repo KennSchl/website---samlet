@@ -20,13 +20,24 @@ body {
 
   .footer {
       clear: both;
-    
+    background-color: black;
   }
-
-  #adresse {
-  width: 20%;
-  margin-left: 15%;
+  #list {
+  width: 40%;
+  margin-left: 10%;
   margin-top: 3%;
+  color: white;
+  float: right;
+  cursor: pointer;
+  text-decoration: overline;
+  }
+  #adresse {
+  width: 25%;
+  margin-left: 10%;
+  margin-top: 3%;
+  color: white;
+  float: right;
+  cursor: pointer;
   }
 
 img {
@@ -123,12 +134,11 @@ width: 100%;
     padding-top: 10px;
     text-decoration: none;
     font-size: 20px;
-    color: black;
     padding: 2%;
 }
 #vid {
-width:95%;
-padding-left: 5%;
+width:97%;
+padding-left: 2%;
 }
 
 /* Change the color of links on hover */
