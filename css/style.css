@@ -114,26 +114,34 @@ input[type=text]:focus {
 }
 
 #logo {
-    width: 20%;
-    height: 10%;
-    float: left;
+    width: 150px;
+    padding-left: 40px;
 }
 
+.col-sm-4 {
+  padding-bottom: 5%;
+}
 #nav {
   text-align: center;
     overflow: hidden;
-    background-color: none;
+    background-color: black;
 width: 100%;
+height: 100px;
+padding-top: 2%;
+
+padding-right: 10%;
+
 }
 
 /* Style the links inside the navigation bar */
+#menu {
+  padding-top: 3%;
 
+}
 #nav a {
-    color: black;
-    text-align: center;
-    padding-top: 10px;
-    text-decoration: none;
+    color: white;
     font-size: 20px;
+    text-decoration: none;
     padding: 2%;
 }
 #vid {
@@ -144,8 +152,8 @@ padding-left: 2%;
 /* Change the color of links on hover */
 
 #nav a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: blue;
+    color: white;
 }
 
 /* Add a color to the active/current link */
